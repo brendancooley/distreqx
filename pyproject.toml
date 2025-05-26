@@ -52,3 +52,9 @@ order-by-type = false
 [tool.pyright]
 reportIncompatibleMethodOverride = true
 include = ["distreqx", "tests"]
+
+[dependency-groups]
+dev = [
+    "polars>=1.30.0",
+    "scikit-learn>=1.6.1",
+]
